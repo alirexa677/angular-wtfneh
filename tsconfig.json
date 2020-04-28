@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "noFallthroughCasesInSwitch": true,
+    "sourceMap": true,
+    "rootDir": ".",
+    "inlineSources": true,
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "target": "es5",
+    "skipLibCheck": true,
+    "types": [
+      "node",
+      "lodash"
+    ]
+  },
+  "angularCompilerOptions": {
+    "enableIvy": false
+  },
+  "exclude": [
+    "node_modules",
+    "example",
+    "examples",
+    "dist"
+  ]
+}
